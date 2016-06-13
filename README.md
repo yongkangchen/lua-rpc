@@ -4,6 +4,7 @@
 ```lua
 SocketManager.send(packer_encode({t, ...}))
 ```
+And somewhere call `server.on_msg`
 
 ## Async Usage
 ```lua
